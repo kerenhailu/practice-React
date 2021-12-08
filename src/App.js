@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Timer from "../src/Timer/timer"
+import Keren from "../src/component/keren.component"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Timer/>
+        <Keren/>
         <br></br>
         <a
           className="App-link"
